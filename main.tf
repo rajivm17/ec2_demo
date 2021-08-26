@@ -10,9 +10,9 @@ terraform {
     }
   }
   required_version = ">= 0.14"
-  
+
   backend "remote" {
-    organization = "rajiv-terraformcloud"
+    organization = "REPLACE_ME"
 
     workspaces {
       name = "gh-actions-demo"
@@ -21,9 +21,8 @@ terraform {
 }
 
 
-# Configure the AWS Provider
 provider "aws" {
-  region = "ap-south-1"
+  region = "us-west-2"
 }
 
 
