@@ -5,7 +5,6 @@ terraform {
       version = "3.56.0"
     }
   }
-  required_version = ">= 0.14"
 
   backend "remote" {
     organization = "rajiv-terraformcloud"
